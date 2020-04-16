@@ -31,8 +31,8 @@ for holding in portfolio:
 if cash < BUY_AMOUNT_USD:
     sys.exit('You dont have enough funds in your account')
 
-# Purchase btc
-#print('Buying ${} of BTC'.format(BUY_AMOUNT_USD))
-#res = r.order_buy_crypto_by_price('BTC',BUY_AMOUNT_USD)
-#print(res)
+Purchase btc
+print('Buying ${} of BTC'.format(BUY_AMOUNT_USD))
+res = r.order_buy_crypto_by_price('BTC',BUY_AMOUNT_USD)
+print(res)
 
